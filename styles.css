@@ -1,2 +1,32 @@
+.holder {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;     /* Center items vertically (if needed) */
+    flex-wrap: wrap;         /* Allow items to wrap to the next line */
+    gap: 10px;               /* Optional: Adds space between items */
+    width: 100%;             /* Full width of the container */
+}
+.item {
+    /* background-color: lightblue; */
+    width: 100px;  /* Fixed width for each item */
+    height: 100px; /* Fixed height for each item */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
 
-/* Your CSS Code here. */
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
